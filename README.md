@@ -95,3 +95,16 @@ ReactDOM.render(
     document.getElementById('main')
 );
 ```
+
+
+## 查看example
+
+```shell
+git clone https://github.com/lulupy/ll-scrollview.git
+cd ll-scrollview
+npm install
+
+cd example
+webpack-dev-server
+```
+访问: http://127.0.0.1:3000
