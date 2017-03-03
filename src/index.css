@@ -1,0 +1,65 @@
+.ll-scroll{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+.ll-scroll-wrap{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+}
+.ll-scroll-container{
+    position: absolute;
+
+    top: 0;
+    right: -15px;
+    bottom: -15px;
+    left: 0;
+
+    overflow: scroll;
+}
+
+.ll-scrollbar-track-vertical{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 16px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.ll-scrollbar-track-horizontal{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 16px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.ll-scrollbar-thumb-vertical{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: #43B6B1;
+}
+
+.ll-scrollbar-thumb-horizontal{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background: #43B6B1;
+}
+
+
+
